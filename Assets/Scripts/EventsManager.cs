@@ -102,16 +102,17 @@ public class EventsManager : MonoBehaviour
         {
             gameModeSelect = GameObject.Find("GameModeSelect"); 
         }
-        gameModeSelect.transform.GetChild(0).gameObject.SetActive(false);
         gameModeSelect.transform.GetChild(1).gameObject.SetActive(false);
         gameModeSelect.transform.GetChild(2).gameObject.SetActive(false);
-        gameModeSelect.transform.GetChild(3).gameObject.SetActive(true);
+        gameModeSelect.transform.GetChild(3).gameObject.SetActive(false);
+        gameModeSelect.transform.GetChild(4).gameObject.SetActive(true);
     }
 
     public void selectMale()
     {
         cutScenes = GameObject.Find("CutScene_John");
         CharaScript.johnOrjane = 0;
+        gameModeSelect.transform.GetChild(4).gameObject.SetActive(false);
         cutScenes.transform.GetChild(0).gameObject.SetActive(true);
     }
 
@@ -119,6 +120,7 @@ public class EventsManager : MonoBehaviour
     {
         cutScenes = GameObject.Find("CutScene_Jane");
         CharaScript.johnOrjane = 1;
+        gameModeSelect.transform.GetChild(4).gameObject.SetActive(false);
         cutScenes.transform.GetChild(0).gameObject.SetActive(true);
     }
 
@@ -129,10 +131,10 @@ public class EventsManager : MonoBehaviour
             gameModeSelect = GameObject.Find("GameModeSelect");
         }
         sfxPlayer.Return();
-        gameModeSelect.transform.GetChild(0).gameObject.SetActive(true);
         gameModeSelect.transform.GetChild(1).gameObject.SetActive(true);
         gameModeSelect.transform.GetChild(2).gameObject.SetActive(true);
-        gameModeSelect.transform.GetChild(3).gameObject.SetActive(false);
+        gameModeSelect.transform.GetChild(3).gameObject.SetActive(true);
+        gameModeSelect.transform.GetChild(4).gameObject.SetActive(false);
     }
     public void BackToStart()
     {

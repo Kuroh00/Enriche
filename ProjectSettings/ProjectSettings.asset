@@ -143,10 +143,11 @@ PlayerSettings:
   m_ColorGamuts: 00000000
   targetPixelDensity: 240
   resolutionScalingMode: 0
-  androidSupportedAspectRatio: 2
+  androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 10.16
   applicationIdentifier:
     Android: com.TeamPolicarpio.Enriche
+    Standalone: com.TeamPolicarpio.Enriche
   buildNumber:
     Standalone: 0
     iPhone: 0
