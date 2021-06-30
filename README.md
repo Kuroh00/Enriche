@@ -20,3 +20,4 @@ Enriche is a single player quiz game that includes a very simple plot and settin
 <h2 align="Center">Backend Development</h2>
 <p align="center">This game was developed using the Unity Game Engine with the scripts being written in C# language using Visual Studio.</p>
 <p align="center"><img src="https://github.com/Kuroh00/Enriche/blob/main/docs/Unity.png" alt="Unity" width="200"/> <img src="https://github.com/Kuroh00/Enriche/blob/main/docs/Visual%20Studio.png" alt="VS" width="200"/></p>
+<p align="center">The questions used in this game are stored in sciptable objects. The questions are divided according to topic and loaded by stage. The questions are randomly selected with their choices also randomly placed to avoid any patterns. Player data are saved in binary .dat files for security.</p>
