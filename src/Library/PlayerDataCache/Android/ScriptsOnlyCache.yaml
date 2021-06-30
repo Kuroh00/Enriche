@@ -21,8 +21,6 @@ ScriptsOnlyBuild:
     - sfxPlayer
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -1468,4 +1466,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Stage3.unity
   - Assets/Scenes/Results.unity
   - Assets/Scenes/HighScore.unity
-  playerPath: F:/Makkun/Unity Projects/Enriche/Enrich_1.01.apk
+  playerPath: F:/Makkun/Unity Projects/Enriche/build/Enrich_1.01.apk
